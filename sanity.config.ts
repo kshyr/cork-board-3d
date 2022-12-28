@@ -6,8 +6,8 @@ import { getDefaultDocumentNode } from "./lib/deskPreview";
 
 export default defineConfig({
   basePath: "/studio",
-  name: "notes",
-  title: "sanity-notes",
+  name: "board",
+  title: "cork-board",
 
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET!,
